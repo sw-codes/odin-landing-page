@@ -35,6 +35,7 @@ button {
     width: fit-content;
     border-radius: 4px;
     padding: 4px 16px;
+    border-color: white;
 }
 
 .snow {
@@ -93,11 +94,26 @@ button {
 }
 
 .fourth-div {
-    padding: 40px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .call-to-action {
     background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    border-radius: 8px;
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action button {
+    height: fit-content;
 }
 
 footer {
