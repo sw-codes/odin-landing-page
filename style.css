@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+.snow {
+    height: 280px;
+    width: 480px;
+}
+
+.first-div{
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px;
+    color: white;
+    gap: 12px;
+}
+
+.first-div-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+}
+
+.card-div {
+    display: flex;
+    padding: 20px;
+    gap: 8px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+.third-div {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.fourth-div {
+    padding: 40px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
